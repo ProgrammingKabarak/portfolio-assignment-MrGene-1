@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Eugene Kipchumba, a Front-End Developer and IT student at Kabarak University, showcasing web development projects, skills, and contact information.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>Eugene Kipchumba | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="#home" class="wordmark">GENE</a>
+        <nav class="main-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-controls">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">&#9788;</button>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+        </div>
+    </header>
+
+    <main id="home">
+
+        <section class="hero">
+            <p class="eyebrow-row">
+                <span>Web Development</span>
+                <span>UI Design</span>
+                <span>Full-Stack</span>
+            </p>
+
+            <div class="hero-body">
+                <div class="hero-text">
+                    <p class="greeting" id="greeting">Welcome</p>
+                    <h1 class="hero-name">Eugene Kipchumba</h1>
+                    <p class="hero-title">Front-End Developer &amp; IT Student</p>
+                    <p class="hero-lede">
+                        I design and build clean, functional web experiences &mdash;
+                        currently studying Information Technology at Kabarak University.
+                    </p>
+                    <div class="hero-links">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+                    </div>
+                </div>
+
+                <div class="avatar" aria-hidden="true">
+                    <span>EK</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2><span class="section-index">01</span> About Me</h2>
+
+            <p>
+                I am an Information Technology (IT) student at Kabarak University
+                with a strong interest in web development, cybersecurity,
+                and software engineering.
+            </p>
+
+            <p>
+                I enjoy building practical projects, learning new technologies,
+                and improving my problem-solving skills. My goal is to develop
+                innovative and user-friendly software solutions while growing
+                professionally in the technology industry.
+            </p>
+
+            <div class="about-grid">
+                <div>
+                    <h3>Education</h3>
+                    <p>Bachelor of Science in Information Technology &mdash; Kabarak University</p>
+                </div>
+                <div>
+                    <h3>Career Aspirations</h3>
+                    <p>To become a skilled software engineer and contribute to impactful technology solutions.</p>
+                </div>
+                <div>
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Programming</li>
+                        <li>Technology Research</li>
+                        <li>Open Source Projects</li>
+                        <li>Continuous Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2><span class="section-index">02</span> Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-head">
+                        <span>HTML5</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-head">
+                        <span>CSS3</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-head">
+                        <span>JavaScript</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-head">
+                        <span>Git &amp; GitHub</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-head">
+                        <span>Python</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="70"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-head">
+                        <span>Responsive Design</span>
+                        <span class="skill-percent">82%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="82"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2><span class="section-index">03</span> Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="project1.jpg" alt="Personal business card project screenshot" loading="lazy">
+                    <div class="project-body">
+                        <h3>Personal Business Card</h3>
+                        <p>A responsive personal business card built using HTML and CSS.</p>
+                        <ul class="tech-tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="project2.jpg" alt="Student registration form project screenshot" loading="lazy">
+                    <div class="project-body">
+                        <h3>Student Registration Form</h3>
+                        <p>A web-based student registration form with client-side validation.</p>
+                        <ul class="tech-tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="project3.jpg" alt="Simple calculator project screenshot" loading="lazy">
+                    <div class="project-body">
+                        <h3>Simple Calculator</h3>
+                        <p>A calculator application developed using vanilla JavaScript.</p>
+                        <ul class="tech-tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2><span class="section-index">04</span> Resume / CV</h2>
+
+            <p>Download my CV for full details on my education, certifications, and experience.</p>
+
+            <a href="files/Eugene_Kipchumba_CV.pdf" download class="btn btn-primary">Download CV</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2><span class="section-index">05</span> Contact Me</h2>
+
+            <form id="contactForm" novalidate>
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required minlength="2">
+                    <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-msg" id="emailError"></span>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                    <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p class="form-status" id="formStatus" role="status"></p>
+            </form>
+
+            <h3>Contact Information</h3>
+
+            <ul class="contact-list">
+                <li>Email: <a href="mailto:eugenekipchumba@example.com">eugenekipchumba@example.com</a></li>
+                <li>GitHub: <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer">github.com/MrGene-1</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">linkedin.com/in/eugenekipchumba</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-social">
+            <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+            <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="mailto:eugenekipchumba@example.com" aria-label="Send email">Email</a>
+        </div>
+        <p>&copy; <span id="year"></span> Eugene Kipchumba. All Rights Reserved.</p>
+        <button id="topBtn" aria-label="Back to top">&uarr; Back to Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
