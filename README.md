@@ -61,8 +61,7 @@ course.
 
 ## GitHub Repository
 
-https://github.com/MrGene-1/ _[replace with the actual repo link]_
-
+https://github.com/MrGene-1/ 
 ## Live Website
 
-_[Add your GitHub Pages / Netlify / Vercel link here if deployed]_
+https://programmingkabarak.github.io/portfolio-assignment-MrGene-1/
