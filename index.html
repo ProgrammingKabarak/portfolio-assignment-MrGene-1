@@ -13,7 +13,7 @@
 
     <header class="site-header">
         <a href="#home" class="wordmark">GENE</a>
-        <nav class="main-nav">
+        <nav class="main-nav" id="mainNav">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
@@ -21,8 +21,8 @@
             <a href="#contact">Contact</a>
         </nav>
         <div class="header-controls">
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">&#9788;</button>
-            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode"><span aria-hidden="true">&#9788;</span></button>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-controls="mainNav" aria-expanded="false"><span aria-hidden="true">&#9776;</span></button>
         </div>
     </header>
 
@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="avatar">
-                    <img src="avatar.jpg" alt="Eugene Kipchumba">
+                    <img src="!.jpg" alt="Eugene Kipchumba">
                 </div>
             </div>
         </section>
@@ -221,6 +221,7 @@
 
             <p>Download my CV for full details on my education, certifications, and experience.</p>
 
+            <!-- TODO: make sure files/Eugene_Kipchumba_CV.pdf exists in your repo before pushing -->
             <a href="files/Eugene_Kipchumba_CV.pdf" download class="btn btn-primary">Download CV</a>
         </section>
 
@@ -254,8 +255,10 @@
             <h3>Contact Information</h3>
 
             <ul class="contact-list">
+                <!-- TODO: replace with your real email before submitting -->
                 <li>Email: <a href="mailto:eugenekipchumba@example.com">eugenekipchumba@example.com</a></li>
                 <li>GitHub: <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer">github.com/MrGene-1</a></li>
+                <!-- TODO: replace with your real LinkedIn URL before submitting -->
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">linkedin.com/in/eugenekipchumba</a></li>
             </ul>
         </section>
@@ -267,6 +270,7 @@
         <div class="footer-social">
             <a href="https://github.com/MrGene-1" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
             <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+            <!-- TODO: replace with your real email before submitting -->
             <a href="mailto:eugenekipchumba@example.com" aria-label="Send email">Email</a>
         </div>
         <p>&copy; <span id="year"></span> Eugene Kipchumba. All Rights Reserved.</p>

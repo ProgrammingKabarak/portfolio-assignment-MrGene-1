@@ -1,11 +1,4 @@
-
-const navToggle = document.querySelector('.nav-toggle');
-const mainNav = document.querySelector('.main-nav');
-
-navToggle.addEventListener('click', () => {
-  const isOpen = mainNav.classList.toggle('open');
-  navToggle.setAttribute('aria-expanded', isOpen);
-});// ---------- 1. Responsive navigation menu ----------
+// ---------- 1. Responsive navigation menu ----------
 const navToggle = document.querySelector('.nav-toggle');
 const mainNav = document.querySelector('.main-nav');
 
@@ -28,7 +21,9 @@ const root = document.documentElement;
 
 function applyTheme(theme) {
   root.setAttribute('data-theme', theme);
-  themeToggle.textContent = theme === 'light' ? '\u263D' : '\u2600';
+  themeToggle.innerHTML = theme === 'light'
+    ? '<span aria-hidden="true">\u263D</span>'
+    : '<span aria-hidden="true">\u2600</span>';
   localStorage.setItem('portfolio-theme', theme);
 }
 
